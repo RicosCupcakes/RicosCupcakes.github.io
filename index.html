@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Cupcakes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a la tienda de Cupcakes</h1>
+    </header>
+
+    <main>
+        <section id="cupcakes-list">
+            <h2>Nuestros Cupcakes</h2>
+            <div class="cupcake-item">
+                <h3>Chocolate Delicioso</h3>
+                <p>Un cupcake con un sabor intenso a chocolate.</p>
+            </div>
+            <div class="cupcake-item">
+                <h3>Vainilla Clásica</h3>
+                <p>El cupcake perfecto para los amantes de la vainilla.</p>
+            </div>
+        </section>
+
+        <section id="add-cupcake">
+            <h2>Añadir nuevo Cupcake</h2>
+            <form id="cupcake-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="description">Descripción:</label>
+                <textarea id="description" name="description" required></textarea>
+                <button type="submit">Añadir Cupcake</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
